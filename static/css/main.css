@@ -1,0 +1,42 @@
+/* 所有页面的通用样式*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.head{
+  	height: 120px;
+  	background-color: #323232;
+}
+
+.logo{
+	font-size: 30px;
+  	padding: 2%;
+  	float: left;
+}
+
+.logo a,a:hover,a:visited{
+	text-decoration: none;
+}
+
+.showLeft{
+	display:inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+.loginedMessage{
+	display: none;
+}
+
+.loginMessage{
+	display: flex;
+	padding-top: 20px;
+}
+
+.loginedRight{
+	margin-top: 20px;
+}
+

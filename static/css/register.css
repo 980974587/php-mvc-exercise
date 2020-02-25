@@ -1,0 +1,138 @@
+.loginMessage{
+	display: flex;
+}
+
+#errorMessageDiv,#flashMessage{
+	margin: 1% 30%;
+}
+
+#errorMessageDiv{
+	display: none;
+}
+
+#register{
+	background-color: #3399FF;
+	border: solid 1px #1a5276;
+	box-shadow: 3px 3px #1b4f72;
+}
+
+#login{
+	border: solid 1px #3f3f3f;
+	box-shadow: 1px 1px black;
+	margin-left: 3px;
+}
+
+.radio input{
+	margin: 10px 3px 5px 0;
+}
+
+label{
+	margin-bottom: 0;
+}
+
+.formTitle{
+	width: 508px;
+	height: 60px;
+	margin: 30px auto 2px;
+}
+
+#login,#register{
+	width: 250px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+form{
+	width: 500px;
+	border: solid 2px black;
+	margin: -2px auto 100px;
+}
+
+#registerImformation{
+	width: 350px;
+	margin: 30px auto 30px;
+}
+
+.input{
+	width: 350px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+#registerImformation>div{
+	width: 350px;
+	margin: 10px 0 0;
+}
+
+.addHobby{
+	margin-right: 1%;
+}
+
+.checkbox input{
+	margin: 10px 1px 5px 0;
+}
+
+#add{
+	background-color: #3399FF;
+	width: 350px;
+	height: 35px;
+	margin: 20px 0;
+}
+
+@media screen and (max-width:799px) and (min-width: 450px) { 
+
+	.formTitle{
+		width: 362px;
+		height: 40px;
+		margin: 10px auto 2px;
+	}
+
+	#login,#register{
+		width: 175px;
+		height: 40px;
+		float: left;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	form{
+		width: 350px;
+		border: solid 2px black;
+		margin: -2px auto 30px;
+	}
+	
+	#registerImformation{
+		width: 250px;
+		margin: 15px auto 15px;
+	}
+	
+	.input{
+		width: 250px;
+		height: 30px;
+		margin-top: 5px;
+		font-size: 15px;
+	}
+	
+	#registerImformation>div{
+		width: 250px;
+		margin: 10px 0 0;
+	}
+
+	.checkbox input{
+		margin: 10px 1px 8px 0;
+	}
+
+	.addHobby{
+		margin-right: 2%;
+	}
+
+	#add{
+		background-color: #3399FF;
+		width: 250px;
+		height: 30px;
+		margin: 20px 0;
+	}
+
+}

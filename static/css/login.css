@@ -1,0 +1,125 @@
+
+.loginMessage{
+	display: flex;
+}
+
+#flashMessage{
+	margin: 1% 30%;
+}
+
+#subtn{
+	background-color: #3399FF;
+	width: 350px;
+	height: 35px;
+}
+
+nav button{
+	float: left;
+}
+
+#login{
+	background-color: #3399FF;
+	border: solid 1px #1a5276;
+	box-shadow: 2px 2px 2px #1b4f72;
+	margin-left: 3px;
+}
+
+#register{
+	border: solid 1px #3f3f3f;
+	box-shadow: 2px 2px 2px black;
+}
+
+.checkbox{
+	margin-top: 10px;
+}
+
+form{
+	width: 500px;
+	border: solid 3px black;
+	margin: 0 auto;
+}
+
+nav{
+	width: 510px;
+	height: 60px;
+	margin: 30px auto 0px;
+}
+
+#login,#register{
+	width: 250px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+#imformation{
+	width: 350px;
+	margin: 20px auto 50px;
+}
+
+#imformation>div{
+	width: 350px;
+	margin: 30px 0 0;
+}
+
+#username,#password{
+	width: 350px;
+	height: 30px;
+}
+
+#subtn{
+	background-color: #3399FF;
+	width: 350px;
+	height: 35px;
+}
+
+
+@media screen and (max-width: 799px) and (min-width: 450px) { 
+
+	nav{
+		width: 310px;
+		height: 20px;
+		margin: 10px auto 0px;
+	}
+
+	#login,#register{
+		width: 150px;
+		height: 40px;
+		float: left;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	form{
+		width: 300px;
+		border: solid 3px black;
+		margin: 20px auto;
+	}
+	
+	#imformation{
+		width: 200px;
+		margin: 10px auto 20px;
+	}
+
+	#imformation>div{
+		width: 200px;
+		margin: 10px 0 0;
+	}
+	
+	#username,#password{
+		width: 200px;
+		height: 30px;
+	}
+	
+	.checkbox{
+		margin-top: 10px;
+	}
+	
+	#subtn{
+		background-color: #3399FF;
+		width: 200px;
+		height: 30px;
+	}
+	
+}
